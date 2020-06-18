@@ -54,12 +54,11 @@ body {
 }
 
 .header-links li {
-    padding: 1.6rem;
+    padding: 1.5rem;
 }
 
 .header-links {
     display: flex;
-    justify-content: space-between;
     list-style: none;
 }
 
@@ -71,8 +70,6 @@ body {
     text-decoration: none;
     color: #fff;
 }
-
-
 
 .link-grow {
     transform: scale(2);
@@ -154,6 +151,7 @@ body {
     align-items: center;
     justify-content: space-between; 
 }
+
 .about-header,
 .portfolio-header {
     text-align: center;
@@ -162,9 +160,12 @@ body {
     text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, .2);
     color: #ccc;
 }
+
 .about-content {
     width: 70%;
 }
+
+.landing-img-responsive{display: none;}
 
 .portfolio-header {
     margin-top: 10rem;

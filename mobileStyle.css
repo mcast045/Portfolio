@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1800px) {
+    .landing-img-2 {top: 450px;}
+    .landing-scroll {visibility: hidden;}
+}
+
+@media only screen and (max-width: 1500px) {
+    .card-hidden {display: none;}
+    .card-side {height: 40rem;}
+    .tools li {font-size: 1rem;}
+    .card-text p,
+    .tools-header{font-size: 1.2rem;}
+}
+
+@media only screen and (max-width: 1000px) {
+    #portfolio{margin: auto;}
+
+    .landing-img-1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+    .landing h1 {
+        margin-top: 0;
+        font-size: 4rem
+    }
+
+    .landing {height: 50vh;}
+    .about-container {width: 95%;}
+    .landing-img-2 {display: none;}
+}
+
+@media only screen and (max-width: 870px) {
+    .landing-name {
+        display: block;
+        text-align: center;
+    }
+
+    .card-side {height: 35rem;}
+}
+
+@media only screen and (max-width: 800px) {
+    .portfolio-header {margin: 3rem 0;}
+    .about-img {display: none;}
+
+    .about-content {
+        display: block;
+        margin: auto;
+    }
+
+    #portfolio {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {width: 90%; margin-bottom: 1rem;}
+    .card-side{height: 100%;}
+}
+
+@media only screen and (max-width: 700px) {
+    .card-side{height: 90%;}
+
+    .about-header,
+    .portfolio-header {font-size: 2rem;}
+}
+
+@media only screen and (max-width: 600px) {
+    .header-links li {display: none;}
+    .header-h3 {
+        margin: auto;
+        font-size: 3rem;
+    }
+
+    .landing-img-1 {display: none;}
+    .landing-img-responsive {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .landing h1 {
+        font-size: 3rem;
+        transform: translateY(-10rem);
+    }
+
+    .landing-hidden {
+        display: none;
+    }
+
+    .card-side{height: 80%;}
+
+    .footer-items {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card-side{height: 75%;}
+    .header-h3 {font-size: 2rem;}
+}
