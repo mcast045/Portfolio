@@ -34,11 +34,6 @@
 }
 
 @media only screen and (max-width: 870px) {
-    .landing-name {
-        display: block;
-        text-align: center;
-    }
-
     .card-side {height: 35rem;}
 }
 
@@ -92,10 +87,20 @@
         display: none;
     }
 
+    .about-text {
+        font-size: 1.5rem;
+    }
+
     .card-side{height: 80%;}
 
     .footer-items {
         width: 80%;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .about-text {
+        font-size: 1.3rem;
     }
 }
 

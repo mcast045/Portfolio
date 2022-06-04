@@ -132,6 +132,7 @@ body {
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    text-align: center;
 }
 @keyframes breath {
     0% {background-position: 0;}
@@ -163,6 +164,10 @@ body {
 
 .about-content {
     width: 70%;
+}
+
+.about-text {
+    line-height: 1.7;
 }
 
 .landing-img-responsive{display: none;}
